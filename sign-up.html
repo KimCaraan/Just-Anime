@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIME WEB</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="sign-up.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/brands.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/solid.css">
+</head>
+<body class="b">
+  <div id="menuHolder" style="padding-top: 70px">
+    <div role="navigation" class="fixed-top" id="mainNavigation">
+      <div class="flexMain">
+        <div class="flex2">
+          <button class="whiteLink siteLink" style="border-right:1px solid #eaeaea" onclick="menuToggle()">
+            <i class="fas fa-bars me-2"></i>MENU</button>
+        </div>
+        <div id="siteBrand"><i class="fa-solid fa-tv mx-2"></i>
+          JUST ANIMATION
+        </div>
+        
+        <div class="flex2 text-end d-none d-md-block">
+          <button class="whiteLink siteLink" ><a href="sign-up.html" id="signup">SIGN-UP</a></button>
+          <button class="blackLink siteLink" ><a href="login.html" id="login">LOGIN</button></a>
+        </div>
+      </div>
+    </div>
+  
+    <div id="menuDrawer">
+      <div class="p-4 border-bottom">
+        <div class='row'>
+          <div class="col">
+            <select class="noStyle">
+              <option value="english" id="insidens">English</option>
+              <option value="spanish" id="insidens">Bisaya</option>
+             
+            </select>
+          </div>
+          <div class="col text-end ">
+            <i class="fas fa-times" role="btn" onclick="menuToggle()"></i>
+          </div>
+        </div>
+      </div>
+      <div>
+      
+        <a href="#" class="nav-menu-item"></i><input type="text" placeholder="Search.."> <button>
+          <i class="fa fa-search"></i>
+      </button></a>
+        <a href="index.html" class="nav-menu-item"><i class="fa-solid fa-house me-1"></i>Home</a>
+
+        <a href="#" class="nav-menu-item" class="nav-menu-item dropdown" class="nav-link dropdown-toggle mx-2 text-uppercase"  role="button" data-bs-toggle="dropdown" id="ntop" aria-expanded="false">
+          <i class="fa-solid fa-list me-1"></i>
+          Categories
+        </a>
+        <ul class="dropdown-menu" >
+          <li><a class="dropdown-item" href="#trend" id="ddp"><i class="fa-solid fa-user-plus mx-1"></i>Juvers</a></li>
+          <li><a class="dropdown-item" href="" id="ddp"><i class="fa-solid fa-right-to-bracket mx-1"></i> mapanghe</a></li>
+        </ul>
+        
+        <a href="#" class="nav-menu-item"><i class="fa-solid fa-circle-info me-1"></i>About</a>
+        
+        
+            <a href="#" class="nav-menu-item" class="nav-menu-item dropdown" class="nav-link dropdown-toggle mx-2"  role="button" data-bs-toggle="dropdown" id="ntop" aria-expanded="false">
+              <i class="fa-solid fa-circle-user"></i>
+              Account
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="sign-up.html" id="ddp"><i class="fa-solid fa-user-plus mx-1"></i>Sign-Up</a></li>
+              <li><a class="dropdown-item" href="login.html" id="ddp"><i class="fa-solid fa-right-to-bracket mx-1"></i> Login</a></li>
+            </ul>
+         
+        
+        
+        
+      </div>
+    </div>
+  </div>
+      
+  <div class="wrapper">
+    <div class="logo">
+        <img src="img/cards/card1.jpg" alt="">
+    </div>
+    <div class="text-center mt-4 name">
+        SIGN-UP
+    </div>
+    <form class="p-3 mt-3">
+        <div class="form-field d-flex align-items-center">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" name="Email Address" id="userName" placeholder="Email Address">
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" name="password" id="pwd" placeholder="Password">
+        </div>
+
+        <div class="form-field d-flex align-items-center">
+            <i class="fa-solid fa-key"></i>
+            <input type="password" name="confirmpassword" id="pwd" placeholder="Confirm Password">
+        </div>
+
+        <button class="btn1 mt-3">Confirm</button>
+
+        
+    
+    <div class="text-center fs-6 mt-3">
+        Already Account? <a href="login.html"> Login</a>
+    </div>
+
+    <div class="text-center fs-6 mt-3">
+        Or
+    </div>
+
+    <button class="btn2 mt-3"><i class="fa-brands fa-google mx-2"></i>Google</button>
+    <button class="btn3 mt-3"><i class="fa-brands fa-facebook mx-2"></i>Facebook</button>
+</form>
+</div>
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="text-center" style="background-color: white">
+    <!-- Grid container -->
+    <div class="container-fluid">
+      <!-- Section: Links -->
+      <section class="mt-5">
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-black" style="text-decoration: none">Home</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+
+              
+           
+                <a class="nav-link dropdown-toggle mx-2 text-uppercase" href="#" role="button" data-bs-toggle="dropdown" id="ntop" aria-expanded="false">
+                    Categories
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-uppercase" href="#" id="ntop">Action</a></li>
+                    <li><a class="dropdown-item text-uppercase" href="#" id="ntop">Another action</a></li>
+                    <li><hr class="dropdown-divider text-uppercase" id="ntop"></li>
+                    <li><a class="dropdown-item text-uppercase" href="#" id="ntop">Something else here</a></li>
+                  </ul>
+            
+          
+
+
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-black" style="text-decoration: none">About</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-5" />
+
+
+      <!-- Section: Social -->
+      <section class="text-center mb-5" >
+        <a href="" class="text-black me-4" style="text-decoration: none">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="" class="text-black me-4" style="text-decoration: none">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="" class="text-black me-4" style="text-decoration: none">
+          <i class="fa-brands fa-google"></i>
+        </a>
+        <a href="" class="text-black me-4" style="text-decoration: none">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      
+      </section>
+      <!-- Section: Social -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: black">
+         
+     
+      <h6 style="color: white;">Anime Watch © 2024 Copyright: Kim Caraan</h6 >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <script src="navbar.js"></script>
+  <script src="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bs.popper.js"></script>
+  <script src="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+   
+
+  </body>
+  </html>

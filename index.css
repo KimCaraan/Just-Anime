@@ -1,0 +1,223 @@
+
+
+.b{
+    height:100%;
+    background:black;
+
+}
+
+a {
+    font-size:14px;
+    font-weight:700
+  }
+  .superNav {
+    font-size:13px;
+
+  }
+  .form-control {
+    outline:none !important;
+    box-shadow: none !important;
+  }
+  @media screen and (max-width:540px){
+    .centerOnMobile {
+      text-align:center
+    }
+  }
+
+  #ntop{
+    font-weight: 700;
+    font-size:14px;
+
+ 
+  }
+
+  img{
+    height:530px;
+  }
+  .contentt .title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0;
+    animation: fades 0.5s ease-in-out 0.3s forwards;
+  }
+
+  .price {
+    color: var(--amber4);
+    background-color: var(--amber10);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .contentt .info {
+    padding-bottom: 20px;
+    opacity: 0;
+    animation: fades 1s ease-in-out 0.3s 1 forwards;
+  }
+
+  div.info {
+    border-left: 2px solid var(--amber4);
+    padding: 0 10px;
+  }
+
+
+
+  @keyframes fades {
+    from {
+      opacity: 0;
+      transform: translate(0, 100px);
+      filter: blur(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translate(0);
+      filter: blur(0);
+    }
+  } 
+
+
+  /* card */
+
+  .container .card
+{
+    max-width: 300px;
+    height: 215px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover
+{
+    height: 430px;
+}
+.container .card .imgContainer
+{
+    position: relative;
+    width:250px;
+    height:250px;
+    top:-50px;
+    left:10px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgContainer img
+{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.container .card .content
+{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: left;
+    color:#111;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover .content
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+@media (max-width: 330px){
+    .container .card .imgContainer{
+        left: -2px;
+    }
+}
+
+.content .card-btn {
+  font-size:15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-bottom: 160px;
+  box-shadow: none;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px #b1b1b1,
+      -3px -3px 3px #fff;
+
+  border-color: transparent;width: 60%;
+  margin-left: 50px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.content .card-btn:hover {
+  color:white;
+  background-color: orange;
+}
+
+
+.imgcard{
+  height:200px;
+}
+
+
+.content h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0;
+  animation: fades 0.1s ease-in-out 0.3s forwards;
+  padding-bottom: 10px;
+}
+
+.content h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0;
+  padding-bottom: 10px;
+  animation: fades 0.1s ease-in-out 0.3s forwards;
+}
+
+#trend{
+  font-size: 25px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  color:white;
+  font-weight: bold;
+
+}
+
+.views{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.comments{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.episodes{
+  background-color: maroon;
+  color: white;
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar{
+  width:0;
+  background-color: black;
+}
+
+
+.carousel.namo{
+  position: relative;
+  margin-top: 70px;
+}
